@@ -1,0 +1,103 @@
+:root{
+    background-color: rgb(58, 58, 58);
+    font-family: 'Poppins', Arial, Helvetica, Arial, san-serif;
+    background: url('../img/bg-mobile2.jpeg');
+    background-size: cover;
+}
+
+.logo span{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 80%;
+    height: 70vh;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.6);
+}
+
+.fields{
+    margin: 5% 10%;
+}
+
+.blue-font{
+    color: #4ba3df;
+}
+
+#login{
+    opacity: 0.3;
+}
+
+.fields-title{
+    display: flex;
+    justify-content: center;
+}
+
+#field-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.fields-textboxs{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields-textboxs input{
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.fields-textboxs #placeholder{
+    margin-left: 10px;
+
+}
+
+.fields-remember{
+    margin-bottom: 20px;
+}
+
+#btnlogin{
+    width: 100%;
+    border: none;
+    background-color: #4ba3df;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fields-create a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.fields-recovery a{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+    font-size: 12px;
+}
+
+.fields-create a{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
