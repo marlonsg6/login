@@ -1,7 +1,7 @@
 :root{
     background-color: rgb(58, 58, 58);
     font-family: 'Poppins', Arial, Helvetica, Arial, san-serif;
-    background: url('/img/bg-small.jpg');
+    background: url('../../img/bg-small.jpg');
     background-position: center;
 }
 

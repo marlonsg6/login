@@ -8,57 +8,60 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .logo span {
+    font-size: 50px;
+    margin-top: 15%;
+  }
 
-@media screen and (min-width: 768px) { 
-    .logo span{
-        font-size: 50px;
-        margin-top: 15%;
-    }
+  .container {
+    height: 60vh;
+  }
 
-    .container{
-        height: 60vh;
-    }
-    
-    #field-title{
-        font-size: 25px;
-    }
+  #field-title {
+    font-size: 25px;
+  }
 
-    .fields-textboxs{
-        height: 150px;
-    }
+  .fields-textboxs {
+    height: 150px;
+  }
 
-    .fields-textboxs input{
-        font-size: 20px;
-    }
+  .fields-textboxs input {
+    font-size: 20px;
+  }
 
-    .fields-remember{
-        font-size: 20px;
-    }
+  .fields-remember {
+    font-size: 20px;
+  }
 
-    #btnlogin{
-        font-size: 25px;
-        padding: 20px;
-    }
+  #btnlogin {
+    font-size: 25px;
+    padding: 20px;
+  }
 
-    .fields-recovery a{
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
+  .fields-recovery a {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 
-    .fields-create a{
-        font-size: 20px;
-        margin-top: 50px;
-    }
+  .fields-create a {
+    font-size: 20px;
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   :root {
-    background: url("/img/bg-big.jpg");
+    background: url("../../img/bg-big.jpg");
     background-position: center;
     background-size: cover;
   }
 
-  .logo span{
+  .logo span {
     margin-top: 5%;
-}
+  }
+
+  .container{
+    height: 70vh;
+  }
 }
