@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 1025px) {
   :root {
-    background: url("../../img/bg-big.jpg");
+    background: url("/login/img/bg-big.jpg");
     background-position: center;
     background-size: cover;
   }
